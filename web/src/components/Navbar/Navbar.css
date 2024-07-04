@@ -1,0 +1,37 @@
+/* web/src/components/Navbar/Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-logo img {
+  height: 40px;
+}
