@@ -5,8 +5,9 @@
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px 80px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */ /* Remove this line to eliminate the shadow */
+  position: relative; /* Make sure the logo stays centered */
 }
 
 .navbar-list {
@@ -20,6 +21,8 @@
   margin-right: 20px;
   cursor: pointer;
   font-weight: bold;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif
 }
 
 .navbar-item:last-child {
@@ -34,4 +37,17 @@
 
 .navbar-logo img {
   height: 40px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .navbar-item {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-item {
+    font-size: 14px;
+  }
 }

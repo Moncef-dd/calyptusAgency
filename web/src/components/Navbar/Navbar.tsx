@@ -10,9 +10,12 @@ const Navbar = () => {
         <li className="navbar-item">Services</li>
         <li className="navbar-item">Contact</li>
       </ul>
+
       <div className="navbar-logo">
-        <img src="/path/to/logo.png" alt="Logo" />
+        <img src="/path/to/logo.png"/>
       </div>
+
+
     </nav>
   )
 }
