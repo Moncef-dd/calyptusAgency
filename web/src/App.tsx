@@ -1,4 +1,5 @@
 import { FatalErrorBoundary, RedwoodProvider } from '@redwoodjs/web'
+import './index.css';
 import { RedwoodApolloProvider } from '@redwoodjs/web/apollo'
 
 import FatalErrorPage from 'src/pages/FatalErrorPage'
