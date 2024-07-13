@@ -1,15 +1,23 @@
 import React from 'react'
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({ reqLink}) => {
   return (
     <nav className="navbar">
-      <ul className="navbar-list">
+      <ul>
+        <li>
+
+        <a href={reqLink} className='req-link'>REQUEST A QUOTE</a>
+        </li>
+
+
+       </ul>
+       <ul className="navbar-list">
         <li className="navbar-item">Home</li>
-        <li className="navbar-item">About</li>
         <li className="navbar-item">Services</li>
-        <li className="navbar-item">Contact</li>
-      </ul>
+        <li className="navbar-item">Our Work</li>
+       </ul>
+
     </nav>
   )
 }

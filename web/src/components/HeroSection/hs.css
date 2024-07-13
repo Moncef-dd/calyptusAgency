@@ -4,6 +4,7 @@
   padding: 70px 20px;
   color: #333;
   text-align: start;
+  height: 100%;
 }
 
 .hero-section .container {
@@ -16,7 +17,7 @@
   font-size: 28px;
   color: #fdfdfd;
   display: inline;
-  background-color: gray;
+  background-color: #6B7280;
   margin-bottom: 0.5em;
 }
 

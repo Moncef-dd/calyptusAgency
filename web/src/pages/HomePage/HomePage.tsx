@@ -1,11 +1,18 @@
 
 import Navbar from 'src/components/Navbar/Navbar'
 import HeroSection from 'src/components/HeroSection/HeroSection'
+import { routes ,Link } from '@redwoodjs/router'
 
 const HomePage = () => {
+  const Link = routes.home() /* takes to the form section,
+  it is currently this way for testing purposes */
+
   return (
     <>
-      <Navbar />
+      <Navbar
+        reqLink={Link}
+       />
+
       <HeroSection
         title="FIND WHAT YOU ARE LOOKING FOR."
         subtitle="DIGITAL CREATIVE & DROPSERVICING AGENCY. "
