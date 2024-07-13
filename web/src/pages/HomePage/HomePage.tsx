@@ -10,8 +10,8 @@ const HomePage = () => {
         title="FIND WHAT YOU ARE LOOKING FOR."
         subtitle="DIGITAL CREATIVE & DROPSERVICING AGENCY. "
         backgroundImage="https://example.com/path-to-your-image.jpg"
-        ctaText="Get Started"
-        ctaLink="/get-started"
+        ctaText1="Ready to delegate? Request your free Quote "
+        ctaText2="Not sure yet? Check our work "
       />
 
     </>

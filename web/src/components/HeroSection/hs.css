@@ -1,14 +1,14 @@
 .hero-section {
   background-size: cover;
   background-position: center;
-  padding: 50px 20px;
+  padding: 70px 20px;
   color: #333;
   text-align: start;
 }
 
 .hero-section .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 5%;
 
 }
 
@@ -29,7 +29,7 @@
 
 .hero-section .cta-container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 20px;
   margin-top: 1em;
 }
