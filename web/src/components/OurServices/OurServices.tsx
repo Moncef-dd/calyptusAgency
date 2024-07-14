@@ -30,7 +30,7 @@ const OurServices = ({subtitle, describtion}) => {
         className="mySwiper"
         >
         <SwiperSlide>
-        <div className="calyptus-item">
+        <div className="calyptus-item" id='dark'>
           <h1>
             CALYPTUS.
           </h1>

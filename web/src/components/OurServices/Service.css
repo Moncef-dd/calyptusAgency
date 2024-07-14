@@ -16,7 +16,7 @@
 }
 
 .our-services h3 {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 300;
 
   color: #2c2c2c;
@@ -28,31 +28,32 @@
   height:300px;
 }
 
-.calyptus-item {
+#dark{
   background-color: #6d7683;
   font-weight: 40%;
   width: 60%;
   height: 100%;
-  margin: 10px;
-  padding: 10px;
+  margin: 0px;
+  padding-left: 20px;
+  padding-top: 20px;
   border-radius: 20px;
   color: white;
   text-align: left;
 }
 
 .calyptus-item h1 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 92.5px;
 }
 
 .calyptus-item h4 {
-  font-size: 18px;
-  font-weight: normal;
-  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 30px;
 }
 
 .calyptus-item p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
 }
