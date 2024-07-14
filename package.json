@@ -23,5 +23,8 @@
   "prisma": {
     "seed": "yarn rw exec seed"
   },
-  "packageManager": "yarn@1.22.21"
+  "packageManager": "yarn@1.22.21",
+  "dependencies": {
+    "swiper": "^11.1.4"
+  }
 }
