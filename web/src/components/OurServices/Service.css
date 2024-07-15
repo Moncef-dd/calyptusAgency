@@ -57,3 +57,27 @@
   font-size: 14px;
   font-weight: normal;
 }
+
+#product1, #product2 {
+  background-color: #F3F4F6;
+  font-weight: 40%;
+
+  width: 60%;
+  height: 100%;
+  margin: 0px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+  color: black;
+  text-align: left;
+
+}
+
+#product1  h1 {
+  font-size: 40px;
+}
+
+.container h1  {
+
+
+}

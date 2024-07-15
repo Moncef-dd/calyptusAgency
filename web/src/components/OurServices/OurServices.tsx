@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
+import Service from '../Service/Service';
 
 import './Service.css';
 
@@ -21,11 +22,9 @@ const OurServices = ({subtitle, describtion}) => {
         </h3>
 
       <Swiper
-        slidesPerView = {1.5}
+        slidesPerView = {1.3}
         spaceBetween={1}
-        pagination={{
-          clickable: true,
-        }}
+
         modules={[Pagination]}
         className="mySwiper"
         >
@@ -42,9 +41,9 @@ const OurServices = ({subtitle, describtion}) => {
         </SwiperSlide>
 
         <SwiperSlide>
-        <div className="calyptus-item">
+        <div className="calyptus-item" id='product1'>
           <h1>
-            CALYPTUS.
+            PRODUCT DESIGN
           </h1>
           <h4>
             {subtitle}
@@ -53,15 +52,11 @@ const OurServices = ({subtitle, describtion}) => {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="calyptus-item">
-          <h1>
-            CALYPTUS.
-          </h1>
-          <h4>
-            {subtitle}
-          </h4>
-          <p>{describtion}</p>
-        </div>
+        <Service
+          number='01'
+          theService={"Product Design"}
+
+         />
         </SwiperSlide>
 
       </Swiper>
