@@ -48,14 +48,17 @@ const OurServices = ({subtitle, describtion}) => {
           <h4>
             {subtitle}
           </h4>
-          <p>{describtion}</p>
+          <p>{describtion}
+          // this is in OurServices.tsx file,
+          rigli les fonts w sizes while m designing the database
+          </p>
         </div>
         </SwiperSlide>
+
         <SwiperSlide>
         <Service
           number='01'
-          theService={"Product Design"}
-
+          theService={"PRODUCT DESIGN"}
          />
         </SwiperSlide>
 
