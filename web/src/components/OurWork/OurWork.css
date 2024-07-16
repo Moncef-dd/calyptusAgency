@@ -1,0 +1,57 @@
+
+.project-grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust as needed */
+  width: 100%;
+  padding: 20px;
+}
+
+.project-grid {
+  display: grid;
+  width: 100%;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+
+.project-card {
+  background-color: #e9e9e9; /*the color is just chosen for testing purposes*/
+
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}
+
+.project-card-content {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.project-card-content h3 {
+  margin: 10px;
+  font-size: 38px;
+  font-weight: 400;
+
+}
+
+.project-card-content p {
+  margin: 10px ;
+  font-size: 20px;
+  color: #111827;
+}
+
+/* Adjust the position of the second row */
+.project-card:nth-child(3),
+.project-card:nth-child(4) {
+  margin-top: 10px; /* Adjust this value to control how much lower the second row is */
+}
