@@ -11,7 +11,9 @@ import './Service.css';
 import { Pagination } from 'swiper/modules';
 
 
-const OurServices = ({subtitle, describtion}) => {
+const OurServices = (
+  {subtitle01, describtion01, subtitle02, describtion02, subtitle03, describtion03}
+ ) => {
 
   return (
 
@@ -34,32 +36,38 @@ const OurServices = ({subtitle, describtion}) => {
             CALYPTUS.
           </h1>
           <h4>
-            {subtitle}
+            {subtitle01}
           </h4>
-          <p>{describtion}</p>
+          <p>{describtion01}</p>
         </div>
         </SwiperSlide>
 
         <SwiperSlide>
         <div className="calyptus-item" id='product1'>
+          <h1 className='num'>01.</h1>
           <h1>
             PRODUCT DESIGN
           </h1>
           <h4>
-            {subtitle}
+            {subtitle02}
           </h4>
-          <p>{describtion}
-          // this is in OurServices.tsx file,
-          rigli les fonts w sizes while m designing the database
+          <p>{describtion02}
+          
           </p>
         </div>
         </SwiperSlide>
 
         <SwiperSlide>
-        <Service
-          number='01'
-          theService={"PRODUCT DESIGN"}
-         />
+         <div className="calyptus-item" id='product2'>
+          <h1 className='num'>02.</h1>
+          <h1>
+            AI COPYWRITING
+          </h1>
+          <h4>
+            {subtitle03}
+          </h4>
+          <p>{describtion03}</p>
+        </div>
         </SwiperSlide>
 
       </Swiper>
