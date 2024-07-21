@@ -1,45 +1,47 @@
 import React from 'react'
 import './OurWork.css'
 
+//import image from "../assets/project1.png";
+
 const projects = [
   {
     title: 'DAPPR',
     description: 'WEB APP DESIGN',
-    imageUrl: '/path/to/dappr-image.png',
+    imageUrl: "../assets/project1.png",
     projectUrl: '#',
   },
   {
     title: 'WEIHU',
     description: 'ADMIN DASHBOARD DESIGN',
-    imageUrl: '/path/to/weihu-image.png',
+    imageUrl: '../assets/project02.png',
     projectUrl: '#',
 
   },
   {
-    title: 'NIKE, INC.',
+    title: 'NIKE INC.',
     description: 'SALES DATA WAREHOUSE DASHBOARD',
-    imageUrl: '/path/to/nike-image.png',
+    imageUrl: '../assets/project03.png',
     projectUrl: '#',
 
   },
   {
     title: 'TASKERO',
     description: 'WEB APP / ADMIN DASHBOARD',
-    imageUrl: '/path/to/taskero-image.png',
+    imageUrl: '../assets/project04.png',
     projectUrl: '#',
 
   },
   {
     title: 'SCHEDULEE',
     description: 'MOBILE APP DESIGN',
-    imageUrl: '/path/to/schedulee-image.png',
+    imageUrl: '../assets/project05.png',
     projectUrl: '#',
 
   },
   {
     title: 'INVEST',
     description: 'MOBILE APP DESIGN',
-    imageUrl: '/path/to/invest-image.png',
+    imageUrl: '../assets/project06.png',
     projectUrl: '#',
 
   },
@@ -47,9 +49,8 @@ const projects = [
 // all the examples were hard coded, but in a real world scenario, you would fetch this data from a database
 
 
-const OurWork = (
+const OurWork = () => {
 
-) => {
   return (
     <div className='project-grid-container'>
 
@@ -62,7 +63,6 @@ const OurWork = (
             <a href={project.projectUrl}>
               <h3>{project.title}  →</h3></a>
             <p>{project.description}</p>
-
           </div>
         </div>
       ))}
