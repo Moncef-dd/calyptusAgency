@@ -8,7 +8,7 @@
   width: 100%;
   max-width: 1000px; /* Max width for larger screens */
   margin: 0 auto; /* Center the container */
-  padding: 0 20px; /* Add padding for inner spacing */
+  padding: 0 10px; /* Add padding for inner spacing */
   text-align: left;
 }
 
@@ -28,12 +28,14 @@
 #dark, #product1, #product2 {
   background-color: #F3F4F6; /* Unified background color */
   font-weight: 400;
-  width: 100%; /* Full width for responsiveness */
+  width: calc(100% - 20px); /* Full width minus the gap */
   margin-bottom: 20px; /* Add margin between items */
   padding: 20px; /* Adjust padding for consistency */
   border-radius: 10px; /* Slightly rounded corners */
-  color: white; 
+  color: white; /* Text color */
   text-align: left;
+  margin-left: 10px; /* Add gap between cards on the left */
+  margin-right: 10px; /* Add gap between cards on the right */
 }
 
 #dark {
@@ -43,12 +45,12 @@
 
 #product1, #product2 {
   background-color: #F3F4F6; /* Light background color */
-  color: white; /* Black text color */
+  color: black; /* Black text color */
 }
 
 .calyptus-item h1 {
   font-size: 48px; /* Adjust font size for better visibility */
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2; /* Adjust line height */
   margin-bottom: 10px; /* Add margin below heading */
   color: #FFF;
@@ -81,8 +83,9 @@
   }
 
   #dark, #product1, #product2 {
-    width: 100%; /* Full width on smaller screens */
-    padding: 10px; /* Adjust padding */
+    width: 50px; /* Adjust width for the gap */
+    padding: 20px; /* Adjust padding */
+    margin: 0 auto 20px; /* Center align and add bottom margin */
   }
 
   .calyptus-item h1 {
