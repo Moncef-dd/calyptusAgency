@@ -1,71 +1,104 @@
 .our-services {
-  padding-top: 2%;
-  width: 60%;
-  height: 120%;
-  background-color: #FFF;
+  padding: 2% 0; /* Adjust padding to top and bottom */
+  width: 100%; /* Use full width for responsiveness */
+  background-color: #FFF; /* White background */
 }
 
 .our-services .container {
   width: 100%;
-  height: 500px;
-  max-width: 1000px;
-  margin-left: 20%;
+  max-width: 1000px; /* Max width for larger screens */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Add padding for inner spacing */
   text-align: left;
-  align-items: flex-start;
 }
 
 .our-services h3 {
-  font-size: 40px;
+  font-size: 36px; /* Adjust font size for better balance */
   font-weight: 300;
   color: #2c2c2c;
+  margin-bottom: 20px; /* Add space below the heading */
 }
 
 .mySwiper {
   padding: 10px 0;
   width: 100%;
-  height: 300px;
+  height: 300px; /* Adjust height as needed */
 }
 
 #dark, #product1, #product2 {
-  background-color: #6d7683;
+  background-color: #F3F4F6; /* Unified background color */
   font-weight: 400;
-  width: 60%;
-  height: 100%;
-  margin: 0;
-  padding: 20px 0 0 20px;
-  border-radius: 20px;
-  color: white;
+  width: 100%; /* Full width for responsiveness */
+  margin-bottom: 20px; /* Add margin between items */
+  padding: 20px; /* Adjust padding for consistency */
+  border-radius: 10px; /* Slightly rounded corners */
+  color: white; 
   text-align: left;
 }
 
 #dark {
-  background-color: #6d7683;
+  background-color: #6d7683; /* Dark background color */
+  color: white; /* White text color */
 }
 
 #product1, #product2 {
-  background-color: #F3F4F6;
-  color: black;
-  font-weight: normal;
+  background-color: #F3F4F6; /* Light background color */
+  color: white; /* Black text color */
 }
 
 .calyptus-item h1 {
-  font-size: 60px;
-  font-weight: 600;
-  line-height: 52.5px;
+  font-size: 48px; /* Adjust font size for better visibility */
+  font-weight: 400;
+  line-height: 1.2; /* Adjust line height */
+  margin-bottom: 10px; /* Add margin below heading */
+  color: #FFF;
 }
 
 .calyptus-item h4 {
-  font-size: 15px;
+  font-size: 18px; /* Slightly larger font size */
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 20px; /* Add margin below heading */
 }
 
 .calyptus-item p {
-  font-size: 14px;
+  font-size: 16px; /* Adjust font size for readability */
   font-weight: normal;
+  line-height: 1.5; /* Improve line height for readability */
 }
 
 #product1 h1, #product2 h1 {
-  font-size: 40px;
+  font-size: 48px; /* Increase font size for product names */
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .our-services {
+    padding: 2% 1%; /* Adjust padding for smaller screens */
+  }
+
+  .our-services .container {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
+
+  #dark, #product1, #product2 {
+    width: 100%; /* Full width on smaller screens */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .calyptus-item h1 {
+    font-size: 36px; /* Adjust font size for smaller screens */
+    color: white;
+  }
+
+  .calyptus-item h4 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .calyptus-item p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  #product1 h1, #product2 h1 {
+    font-size: 36px; /* Adjust font size for smaller screens */
+  }
 }

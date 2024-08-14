@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import Service from '../Service/Service';
 
 import './Service.css';
 
@@ -24,7 +23,7 @@ const OurServices = (
         </h3>
 
       <Swiper
-        slidesPerView = {1.3}
+        slidesPerView = {1.5}
         spaceBetween={1}
 
         modules={[Pagination]}
@@ -52,7 +51,7 @@ const OurServices = (
             {subtitle02}
           </h4>
           <p>{describtion02}
-          
+
           </p>
         </div>
         </SwiperSlide>

@@ -52,7 +52,10 @@ const projects = [
 const OurWork = () => {
 
   return (
+    <>
+    <h1></h1>
     <div className='project-grid-container'>
+
 
     <div className="project-grid">
       {projects.map((project, index) => (
@@ -68,6 +71,7 @@ const OurWork = () => {
       ))}
     </div>
     </div>
+    </>
   )
 }
 

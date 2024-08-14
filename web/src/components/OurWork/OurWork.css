@@ -1,4 +1,3 @@
-
 .project-grid-container {
   display: flex;
   justify-content: center;
@@ -8,24 +7,32 @@
   padding: 20px;
 }
 
+
+
 .project-grid {
   display: grid;
-  width: 100%;
-
+  max-width: 1200px; /* Adjust this value as needed */
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  gap: 20px; /* Adjust the gap between columns */
 }
-
 
 .project-card {
   background-color: #ffffff; /*the color is just chosen for testing purposes*/
-
-  width: 60%;
-  height: auto;
+  width: 100%; /* Use full width of the grid item */
+  min-height: 300px; /* Ensure a minimum height for the card */
   overflow: hidden;
   position: relative;
+  padding: 30px; /* Add padding inside the card */
+  box-sizing: border-box; /* Include padding in height calculation */
 }
 
+.project-card:nth-child(odd) {
+  min-height: 400px; /* Make the first column taller */
+}
+
+.project-card:nth-child(even) {
+  min-height: 300px; /* Adjust this value as needed */
+}
 
 .project-card img {
   width: 100%;
@@ -43,7 +50,7 @@
 }
 
 .project-card-content p {
-  margin: 10  px ;
+  margin: 10px;
   font-size: 20px;
   color: #111827;
 }
